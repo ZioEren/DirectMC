@@ -1,0 +1,154 @@
+name: DirectMC
+version: 3.0
+author: zLex__
+description: This is the best plugin ever to manage your server than Spigot do.
+main: me.zlex.directmc.main.DirectMC
+commands:
+  directmc:
+    description: Main command.
+    aliases: [dmc]
+  fly:
+    description: Toggle a player's fly.
+    aliases: [flight]
+  heal:
+    description: Make a player healthy.
+  feed:
+    description: Feed a player.
+  god:
+    description: Make a player invincible.
+  hat:
+    description: Set a block in the helmet of a player.
+  suicide:
+    description: Kill yourself.
+  extinguish:
+    description: Extinguish flames on a player.
+    aliases: [ext]
+  gm:
+    description: Set the player gamemode.
+  gms:
+    description: Set the player gamemode to survival.
+  gmc:
+    description: Set the player gamemode to creative.
+  gma:
+    description: Set the player gamemode to adventure.
+  workbench:
+    description: Open the workbench for a player.
+    aliases: [wb]
+  spawn:
+    description: Teleport a player to spawn location.
+  setspawn:
+    description: Set spawn location.
+  repair:
+    description: Repair your items.
+  direct:
+    description: Send a direct message to a player with custom colors.
+  zeus:
+    description: Strike lightnings on the ground with the power of Zeus.
+  xp:
+    description: Show, give or set the xp of a player.
+  tpall:
+    description: Teleport all players to a player.
+  tptoggle:
+    description: Toggle your teleport.
+  world:
+    description: Teleport a player in a world.
+  worlds:
+    description: View all worlds.
+  kill:
+    description: Kill a player.
+  clear:
+    description: Clear the inventory of a player.
+    aliases: [cl]
+  invsee:
+    description: Open the inventory of a player.
+  enderchest:
+    description: Open your enderchest.
+    aliases: [ec]
+  endersee:
+    description: Open the enderchest of a player.
+  nightvision:
+    description: Toggle the night vision of a player.
+    aliases: [nv]
+  onepunch:
+    description: Make a player shot the entity when hit like One Punch Man.
+  ping:
+    description: Get the ping of a player.
+  near:
+    description: Get nearby players of a player.
+  levelup:
+    description: Level up of determinate number of levels to a player.
+  vanish:
+    description: Make a player invisible.
+    aliases: [v]
+  getpos:
+    description: Get a player position.
+  autopickup:
+    description: Toggle the function to a player for automatic pickup the mined items.
+  speed:
+    description: Set the walk or fly speed of a player.
+  freeze:
+    description: Freeze a player.
+  unfreeze:
+    description: Unfreeze a player.
+  setwarp:
+    description: Set a warp.
+  warp:
+    description: Teleport to a warp.
+  delwarp:
+    description: Delete a warp.
+  warps:
+    description: See the list of all warps.
+  thor:
+    description: Strike a lightning to a player.
+  top:
+    description: Teleport a player to top block location.
+  give:
+    description: Give items and blocks to a player.
+  skull:
+    description: Give the skull of a player.
+  broadcast:
+    description: Send a message to all players.
+    aliases: [bc]
+  tpa:
+    description: Send a teleport request to a player.
+  tpaccept:
+    description: Accept a teleport request.
+  tpdeny:
+    description: Refuse a teleport request.
+  tpahere:
+    description: Send a teleport request to a player.
+  fireball:
+    description: Launch a fireball.
+  snowball:
+    description: Launch a snowball.
+  arrow:
+    description: Launch an arrow.
+  egg:
+    description: Launch an egg.
+  enderpearl:
+    description: Launch an ender pearl.
+  witherskull:
+    description: Launch a wither skull.
+  balance:
+    description: See the money of a player.
+    aliases: [money, bal]
+  economy:
+    description: Apport modifications to the economy.
+    aliases: [eco]
+  pay:
+    description: Pay a player.
+  tphere:
+    description: Teleport a player to you.
+  tppos:
+    description: Teleport a player to a specific location.
+  kick:
+    description: Kick a player from the server.
+  home:
+    description: Go to your home.
+    aliases: [h]
+  sethome:
+    description: Set your home.
+  delhome:
+    description: Delete your home.
+  homes:
+    description: View your homes.
